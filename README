@@ -1,0 +1,24 @@
+ndsfs NDS Rom File system mounter (v1.1)
+ by Andrew Brampton (bramp.net)
+ using knowledge/code from ndstool by Rafael Vuijk (aka DarkFader)
+
+INTRO
+
+  Using FUSE, a Nintendo DS ROM can be mounted as a file system. This tool 
+
+COMPILE
+
+  gcc -lfuse ndsfs.c -o ndsfs
+
+RUN
+
+  ndsfs <rom file> <mount point>
+
+TODO
+  Add extra checks to see if file_ids are valid
+  Implement cache so common paths aren't checked so often
+  Make sure this code works on big endian machines
+  Add write support (hard)
+  The mount directory looks really wierd unless you are a superuser
+  We have coarse grain locking, change this to be more fine grain.
+
