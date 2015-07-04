@@ -1,6 +1,6 @@
 # ndsfs Nintendo DS ROM file system mounter (v1.1)
- by Andrew Brampton (bramp.net)
- using knowledge/code from ndstool by Rafael Vuijk (aka DarkFader)
+ - by Andrew Brampton [bramp.net](http://bramp.net/)
+ - using knowledge/code from ndstool by Rafael Vuijk (aka DarkFader)
 
 ## INTRO
 
